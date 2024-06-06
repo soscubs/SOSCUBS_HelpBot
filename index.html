@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOS CUBS HelpBot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>SOS CUBS HelpBot</h1>
+        <img src="https://sosfeeonline.com/ParentFeeSOSnCUBS/images/cubab.bmp" alt="SOS CUBS Logo" class="logo">
+        <form method="POST" action="/">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                {{ form.name.label }}
+                {{ form.name(size=32) }}
+            </div>
+            <div class="form-group">
+                {{ form.contact.label }}
+                {{ form.contact(size=32) }}
+            </div>
+            <div class="form-group">
+                {{ form.email.label }}
+                {{ form.email(size=32) }}
+            </div>
+            <div class="form-group">
+                {{ form.address.label }}
+                {{ form.address(size=32) }}
+            </div>
+            <div class="form-group">
+                {{ form.age.label }}
+                {{ form.age(size=32) }}
+            </div>
+            <div class="form-group">
+                {{ form.submit() }}
+            </div>
+        </form>
+    </div>
+</body>
+</html>

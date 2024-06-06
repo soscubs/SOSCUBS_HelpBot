@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOS CUBS HelpBot Options</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>SOS CUBS HelpBot</h1>
+        <ul>
+            <li><a href="https://soscubs.com/why-sos-cubs/" target="_blank">Why SOS CUBS</a></li>
+            <li><a href="https://soscubs.com/preschool-day-care-facilities/" target="_blank">Facilities</a></li>
+            <li><a href="https://schoolofscholars.edu.in/amravati/online-fees-payment/" target="_blank">School Fees</a></li>
+            <li><a href="#" onclick="showContactInfo()">Contact Us</a></li>
+        </ul>
+        <div id="contact-info" style="display: none;">
+            <p>1. School Address: Mouza Benoda, Malu Layout, Near Kamal Plaza, Old Bypass.</p>
+            <p>2. Email Us: principal.sosamt@mgsnagpur.org , supervisor.benoda@mgsnagpur.org</p>
+            <p>3. Call Us: 9921744422</p>
+        </div>
+    </div>
+    <script>
+        function showContactInfo() {
+            document.getElementById('contact-info').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

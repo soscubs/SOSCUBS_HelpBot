@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://sosfeeonline.com/ParentFeeSOSnCUBS/images/cubab.bmp') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+form input[type="text"], form input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
